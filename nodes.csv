@@ -1,0 +1,31 @@
+id,label,name,classification,doc_id,section,title,reg_title,reg_section,url
+Fact:db29b9b8,Fact,,direct,,,,,,
+EOC:Travel,EOC,Travel,direct,,,,,,
+Doc:far_31_201_2,Doc,,,far_31_201_2,31.201-2,FAR Part 31 - Contract Cost Principles,,,https://www.acquisition.gov/far/31.201-2
+Section:far_31_201_2::31.201-2,Section,,,far_31_201_2,31.201-2,FAR Part 31 - Contract Cost Principles,,,
+Reg:FAR Part 31 - Contract Cost Principles::31.201-2,Reg,,,,,,FAR Part 31 - Contract Cost Principles,31.201-2,https://www.acquisition.gov/far/31.201-2
+Fact:71c734df,Fact,,indirect,,,,,,
+EOC:G&A,EOC,G&A,indirect,,,,,,
+Fact:49170334,Fact,,fee,,,,,,
+EOC:Fee,EOC,Fee,fee,,,,,,
+Fact:37e4c5c1,Fact,,direct,,,,,,
+EOC:Direct Labor,EOC,Direct Labor,direct,,,,,,
+Doc:dfars_231_205_46,Doc,,,dfars_231_205_46,231.205-46,DFARS - Travel Costs,,,https://www.acquisition.gov/dfars/231.205-46
+Section:dfars_231_205_46::231.205-46,Section,,,dfars_231_205_46,231.205-46,DFARS - Travel Costs,,,
+Reg:DFARS - Travel Costs::231.205-46,Reg,,,,,,DFARS - Travel Costs,231.205-46,https://www.acquisition.gov/dfars/231.205-46
+Fact:93683e2e,Fact,,direct,,,,,,
+Fact:ef4125f1,Fact,,direct,,,,,,
+EOC:Direct Materials,EOC,Direct Materials,direct,,,,,,
+Fact:16b98039,Fact,,direct,,,,,,
+EOC:Subcontracts,EOC,Subcontracts,direct,,,,,,
+Fact:e5b36d96,Fact,,indirect,,,,,,
+EOC:Overhead,EOC,Overhead,indirect,,,,,,
+Fact:266332e5,Fact,,indirect,,,,,,
+EOC:Fringe,EOC,Fringe,indirect,,,,,,
+Fact:3c37f2e7,Fact,,direct,,,,,,
+Doc:cas_410,Doc,,,cas_410,410.50,CAS 410 - Allocation of G&A Expenses,,,https://www.acquisition.gov/cas/410
+Section:cas_410::410.50,Section,,,cas_410,410.50,CAS 410 - Allocation of G&A Expenses,,,
+Reg:CAS 410 - Allocation of G&A Expenses::410.50,Reg,,,,,,CAS 410 - Allocation of G&A Expenses,410.50,https://www.acquisition.gov/cas/410
+Fact:134556fc,Fact,,indirect,,,,,,
+Fact:0e607d84,Fact,,indirect,,,,,,
+Fact:528adbc6,Fact,,indirect,,,,,,

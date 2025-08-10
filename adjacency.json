@@ -1,0 +1,242 @@
+{
+  "Fact:db29b9b8": [
+    {
+      "to": "EOC:Travel",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_31_201_2::31.201-2",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 31 - Contract Cost Principles::31.201-2",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_31_201_2::31.201-2": [
+    {
+      "to": "Doc:far_31_201_2",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:far_31_201_2",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:far_31_201_2",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:71c734df": [
+    {
+      "to": "EOC:G&A",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_31_201_2::31.201-2",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 31 - Contract Cost Principles::31.201-2",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:49170334": [
+    {
+      "to": "EOC:Fee",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_31_201_2::31.201-2",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 31 - Contract Cost Principles::31.201-2",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:37e4c5c1": [
+    {
+      "to": "EOC:Direct Labor",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:dfars_231_205_46::231.205-46",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:DFARS - Travel Costs::231.205-46",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:dfars_231_205_46::231.205-46": [
+    {
+      "to": "Doc:dfars_231_205_46",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:dfars_231_205_46",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:dfars_231_205_46",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:dfars_231_205_46",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:dfars_231_205_46",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:dfars_231_205_46",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:93683e2e": [
+    {
+      "to": "EOC:Travel",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:dfars_231_205_46::231.205-46",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:DFARS - Travel Costs::231.205-46",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:ef4125f1": [
+    {
+      "to": "EOC:Direct Materials",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:dfars_231_205_46::231.205-46",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:DFARS - Travel Costs::231.205-46",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:16b98039": [
+    {
+      "to": "EOC:Subcontracts",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:dfars_231_205_46::231.205-46",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:DFARS - Travel Costs::231.205-46",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:e5b36d96": [
+    {
+      "to": "EOC:Overhead",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:dfars_231_205_46::231.205-46",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:DFARS - Travel Costs::231.205-46",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:266332e5": [
+    {
+      "to": "EOC:Fringe",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:dfars_231_205_46::231.205-46",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:DFARS - Travel Costs::231.205-46",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:3c37f2e7": [
+    {
+      "to": "EOC:Direct Labor",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:cas_410::410.50",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:CAS 410 - Allocation of G&A Expenses::410.50",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:cas_410::410.50": [
+    {
+      "to": "Doc:cas_410",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:cas_410",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:cas_410",
+      "type": "PART_OF"
+    },
+    {
+      "to": "Doc:cas_410",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:134556fc": [
+    {
+      "to": "EOC:G&A",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:cas_410::410.50",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:CAS 410 - Allocation of G&A Expenses::410.50",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:0e607d84": [
+    {
+      "to": "EOC:Overhead",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:cas_410::410.50",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:CAS 410 - Allocation of G&A Expenses::410.50",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Fact:528adbc6": [
+    {
+      "to": "EOC:Fringe",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:cas_410::410.50",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:CAS 410 - Allocation of G&A Expenses::410.50",
+      "type": "SUPPORTED_BY"
+    }
+  ]
+}
