@@ -1,0 +1,53 @@
+source,target,type
+Fact:db29b9b8,EOC:Travel,DESCRIBES
+Fact:db29b9b8,Section:far_31_201_2::31.201-2,CITED_IN
+Section:far_31_201_2::31.201-2,Doc:far_31_201_2,PART_OF
+Fact:db29b9b8,Reg:FAR Part 31 - Contract Cost Principles::31.201-2,SUPPORTED_BY
+Fact:71c734df,EOC:G&A,DESCRIBES
+Fact:71c734df,Section:far_31_201_2::31.201-2,CITED_IN
+Section:far_31_201_2::31.201-2,Doc:far_31_201_2,PART_OF
+Fact:71c734df,Reg:FAR Part 31 - Contract Cost Principles::31.201-2,SUPPORTED_BY
+Fact:49170334,EOC:Fee,DESCRIBES
+Fact:49170334,Section:far_31_201_2::31.201-2,CITED_IN
+Section:far_31_201_2::31.201-2,Doc:far_31_201_2,PART_OF
+Fact:49170334,Reg:FAR Part 31 - Contract Cost Principles::31.201-2,SUPPORTED_BY
+Fact:37e4c5c1,EOC:Direct Labor,DESCRIBES
+Fact:37e4c5c1,Section:dfars_231_205_46::231.205-46,CITED_IN
+Section:dfars_231_205_46::231.205-46,Doc:dfars_231_205_46,PART_OF
+Fact:37e4c5c1,Reg:DFARS - Travel Costs::231.205-46,SUPPORTED_BY
+Fact:93683e2e,EOC:Travel,DESCRIBES
+Fact:93683e2e,Section:dfars_231_205_46::231.205-46,CITED_IN
+Section:dfars_231_205_46::231.205-46,Doc:dfars_231_205_46,PART_OF
+Fact:93683e2e,Reg:DFARS - Travel Costs::231.205-46,SUPPORTED_BY
+Fact:ef4125f1,EOC:Direct Materials,DESCRIBES
+Fact:ef4125f1,Section:dfars_231_205_46::231.205-46,CITED_IN
+Section:dfars_231_205_46::231.205-46,Doc:dfars_231_205_46,PART_OF
+Fact:ef4125f1,Reg:DFARS - Travel Costs::231.205-46,SUPPORTED_BY
+Fact:16b98039,EOC:Subcontracts,DESCRIBES
+Fact:16b98039,Section:dfars_231_205_46::231.205-46,CITED_IN
+Section:dfars_231_205_46::231.205-46,Doc:dfars_231_205_46,PART_OF
+Fact:16b98039,Reg:DFARS - Travel Costs::231.205-46,SUPPORTED_BY
+Fact:e5b36d96,EOC:Overhead,DESCRIBES
+Fact:e5b36d96,Section:dfars_231_205_46::231.205-46,CITED_IN
+Section:dfars_231_205_46::231.205-46,Doc:dfars_231_205_46,PART_OF
+Fact:e5b36d96,Reg:DFARS - Travel Costs::231.205-46,SUPPORTED_BY
+Fact:266332e5,EOC:Fringe,DESCRIBES
+Fact:266332e5,Section:dfars_231_205_46::231.205-46,CITED_IN
+Section:dfars_231_205_46::231.205-46,Doc:dfars_231_205_46,PART_OF
+Fact:266332e5,Reg:DFARS - Travel Costs::231.205-46,SUPPORTED_BY
+Fact:3c37f2e7,EOC:Direct Labor,DESCRIBES
+Fact:3c37f2e7,Section:cas_410::410.50,CITED_IN
+Section:cas_410::410.50,Doc:cas_410,PART_OF
+Fact:3c37f2e7,Reg:CAS 410 - Allocation of G&A Expenses::410.50,SUPPORTED_BY
+Fact:134556fc,EOC:G&A,DESCRIBES
+Fact:134556fc,Section:cas_410::410.50,CITED_IN
+Section:cas_410::410.50,Doc:cas_410,PART_OF
+Fact:134556fc,Reg:CAS 410 - Allocation of G&A Expenses::410.50,SUPPORTED_BY
+Fact:0e607d84,EOC:Overhead,DESCRIBES
+Fact:0e607d84,Section:cas_410::410.50,CITED_IN
+Section:cas_410::410.50,Doc:cas_410,PART_OF
+Fact:0e607d84,Reg:CAS 410 - Allocation of G&A Expenses::410.50,SUPPORTED_BY
+Fact:528adbc6,EOC:Fringe,DESCRIBES
+Fact:528adbc6,Section:cas_410::410.50,CITED_IN
+Section:cas_410::410.50,Doc:cas_410,PART_OF
+Fact:528adbc6,Reg:CAS 410 - Allocation of G&A Expenses::410.50,SUPPORTED_BY

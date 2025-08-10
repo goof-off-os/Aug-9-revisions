@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="directed">
+<node id="Fact:db29b9b8"></node>
+<node id="EOC:Travel"></node>
+<node id="Doc:far_31_201_2"></node>
+<node id="Section:far_31_201_2::31.201-2"></node>
+<node id="Reg:FAR Part 31 - Contract Cost Principles::31.201-2"></node>
+<node id="Fact:71c734df"></node>
+<node id="EOC:G&A"></node>
+<node id="Fact:49170334"></node>
+<node id="EOC:Fee"></node>
+<node id="Fact:37e4c5c1"></node>
+<node id="EOC:Direct Labor"></node>
+<node id="Doc:dfars_231_205_46"></node>
+<node id="Section:dfars_231_205_46::231.205-46"></node>
+<node id="Reg:DFARS - Travel Costs::231.205-46"></node>
+<node id="Fact:93683e2e"></node>
+<node id="Fact:ef4125f1"></node>
+<node id="EOC:Direct Materials"></node>
+<node id="Fact:16b98039"></node>
+<node id="EOC:Subcontracts"></node>
+<node id="Fact:e5b36d96"></node>
+<node id="EOC:Overhead"></node>
+<node id="Fact:266332e5"></node>
+<node id="EOC:Fringe"></node>
+<node id="Fact:3c37f2e7"></node>
+<node id="Doc:cas_410"></node>
+<node id="Section:cas_410::410.50"></node>
+<node id="Reg:CAS 410 - Allocation of G&A Expenses::410.50"></node>
+<node id="Fact:134556fc"></node>
+<node id="Fact:0e607d84"></node>
+<node id="Fact:528adbc6"></node>
+<edge source="Fact:db29b9b8" target="EOC:Travel"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:db29b9b8" target="Section:far_31_201_2::31.201-2"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_31_201_2::31.201-2" target="Doc:far_31_201_2"><data key="type">PART_OF</data></edge>
+<edge source="Fact:db29b9b8" target="Reg:FAR Part 31 - Contract Cost Principles::31.201-2"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:71c734df" target="EOC:G&A"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:71c734df" target="Section:far_31_201_2::31.201-2"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_31_201_2::31.201-2" target="Doc:far_31_201_2"><data key="type">PART_OF</data></edge>
+<edge source="Fact:71c734df" target="Reg:FAR Part 31 - Contract Cost Principles::31.201-2"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:49170334" target="EOC:Fee"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:49170334" target="Section:far_31_201_2::31.201-2"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_31_201_2::31.201-2" target="Doc:far_31_201_2"><data key="type">PART_OF</data></edge>
+<edge source="Fact:49170334" target="Reg:FAR Part 31 - Contract Cost Principles::31.201-2"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:37e4c5c1" target="EOC:Direct Labor"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:37e4c5c1" target="Section:dfars_231_205_46::231.205-46"><data key="type">CITED_IN</data></edge>
+<edge source="Section:dfars_231_205_46::231.205-46" target="Doc:dfars_231_205_46"><data key="type">PART_OF</data></edge>
+<edge source="Fact:37e4c5c1" target="Reg:DFARS - Travel Costs::231.205-46"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:93683e2e" target="EOC:Travel"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:93683e2e" target="Section:dfars_231_205_46::231.205-46"><data key="type">CITED_IN</data></edge>
+<edge source="Section:dfars_231_205_46::231.205-46" target="Doc:dfars_231_205_46"><data key="type">PART_OF</data></edge>
+<edge source="Fact:93683e2e" target="Reg:DFARS - Travel Costs::231.205-46"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:ef4125f1" target="EOC:Direct Materials"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:ef4125f1" target="Section:dfars_231_205_46::231.205-46"><data key="type">CITED_IN</data></edge>
+<edge source="Section:dfars_231_205_46::231.205-46" target="Doc:dfars_231_205_46"><data key="type">PART_OF</data></edge>
+<edge source="Fact:ef4125f1" target="Reg:DFARS - Travel Costs::231.205-46"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:16b98039" target="EOC:Subcontracts"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:16b98039" target="Section:dfars_231_205_46::231.205-46"><data key="type">CITED_IN</data></edge>
+<edge source="Section:dfars_231_205_46::231.205-46" target="Doc:dfars_231_205_46"><data key="type">PART_OF</data></edge>
+<edge source="Fact:16b98039" target="Reg:DFARS - Travel Costs::231.205-46"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:e5b36d96" target="EOC:Overhead"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:e5b36d96" target="Section:dfars_231_205_46::231.205-46"><data key="type">CITED_IN</data></edge>
+<edge source="Section:dfars_231_205_46::231.205-46" target="Doc:dfars_231_205_46"><data key="type">PART_OF</data></edge>
+<edge source="Fact:e5b36d96" target="Reg:DFARS - Travel Costs::231.205-46"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:266332e5" target="EOC:Fringe"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:266332e5" target="Section:dfars_231_205_46::231.205-46"><data key="type">CITED_IN</data></edge>
+<edge source="Section:dfars_231_205_46::231.205-46" target="Doc:dfars_231_205_46"><data key="type">PART_OF</data></edge>
+<edge source="Fact:266332e5" target="Reg:DFARS - Travel Costs::231.205-46"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:3c37f2e7" target="EOC:Direct Labor"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:3c37f2e7" target="Section:cas_410::410.50"><data key="type">CITED_IN</data></edge>
+<edge source="Section:cas_410::410.50" target="Doc:cas_410"><data key="type">PART_OF</data></edge>
+<edge source="Fact:3c37f2e7" target="Reg:CAS 410 - Allocation of G&A Expenses::410.50"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:134556fc" target="EOC:G&A"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:134556fc" target="Section:cas_410::410.50"><data key="type">CITED_IN</data></edge>
+<edge source="Section:cas_410::410.50" target="Doc:cas_410"><data key="type">PART_OF</data></edge>
+<edge source="Fact:134556fc" target="Reg:CAS 410 - Allocation of G&A Expenses::410.50"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:0e607d84" target="EOC:Overhead"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:0e607d84" target="Section:cas_410::410.50"><data key="type">CITED_IN</data></edge>
+<edge source="Section:cas_410::410.50" target="Doc:cas_410"><data key="type">PART_OF</data></edge>
+<edge source="Fact:0e607d84" target="Reg:CAS 410 - Allocation of G&A Expenses::410.50"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:528adbc6" target="EOC:Fringe"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:528adbc6" target="Section:cas_410::410.50"><data key="type">CITED_IN</data></edge>
+<edge source="Section:cas_410::410.50" target="Doc:cas_410"><data key="type">PART_OF</data></edge>
+<edge source="Fact:528adbc6" target="Reg:CAS 410 - Allocation of G&A Expenses::410.50"><data key="type">SUPPORTED_BY</data></edge>
+</graph></graphml>

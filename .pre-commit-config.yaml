@@ -1,0 +1,122 @@
+# .pre-commit-config.yaml
+# Pre-commit hooks for ProposalOS code quality
+# Run: pre-commit install
+# Then: pre-commit run --all-files
+
+repos:
+  # Format code with Black
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
+    hooks:
+      - id: black
+        language_version: python3.11
+        args: ['--line-length=120']
+
+  # Sort imports with isort
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        args: ['--profile=black', '--line-length=120']
+
+  # Lint with Ruff (fast Python linter)
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.5.6
+    hooks:
+      - id: ruff
+        args: ['--fix', '--exit-non-zero-on-fix']
+      - id: ruff-format
+
+  # Type checking with mypy
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.1
+    hooks:
+      - id: mypy
+        additional_dependencies: 
+          - pydantic>=2.0
+          - fastapi>=0.100.0
+          - types-python-dateutil
+        args: ['--ignore-missing-imports', '--no-strict-optional']
+
+  # Security checks with bandit
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.9
+    hooks:
+      - id: bandit
+        args: ['-ll', '-i', '-x', 'tests/']
+        files: \.py$
+
+  # Check for secrets
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+
+  # Trailing whitespace and file endings
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: mixed-line-ending
+        args: ['--fix=lf']
+
+  # Markdown linting
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.41.0
+    hooks:
+      - id: markdownlint
+        args: ['--fix']
+
+  # Spell checking
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        args: ['--skip=*.json,*.md', '--ignore-words-list=ro,connexion,CONNEXION']
+
+  # YAML formatting
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        types_or: [yaml, json]
+
+  # Python docstring checking
+  - repo: https://github.com/PyCQA/pydocstyle
+    rev: 6.3.0
+    hooks:
+      - id: pydocstyle
+        files: '^proposalos_rge/.*\.py$'
+        args: ['--convention=google']
+
+  # Python upgrade syntax
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.16.0
+    hooks:
+      - id: pyupgrade
+        args: ['--py311-plus']
+
+# Custom local hooks
+  - repo: local
+    hooks:
+      - id: no-print-statements
+        name: No print statements
+        entry: '(?<!def )print\('
+        language: pygrep
+        types: [python]
+        exclude: '^(tests/|.*_test\.py|.*test_.*\.py|setup\.py)'
+      
+      - id: no-todo-without-issue
+        name: TODOs must reference an issue
+        entry: '(?i)#\s*(todo|fixme)(?!\([A-Z]+-\d+\))'
+        language: pygrep
+        types: [python]

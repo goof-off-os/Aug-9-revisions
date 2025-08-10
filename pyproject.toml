@@ -1,0 +1,181 @@
+# pyproject.toml
+# Configuration for Python tools (ruff, mypy, pytest, black, isort)
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # isort
+    "B",    # flake8-bugbear
+    "C4",   # flake8-comprehensions
+    "UP",   # pyupgrade
+    "N",    # pep8-naming
+    "SIM",  # flake8-simplify
+    "TCH",  # flake8-type-checking
+    "RUF",  # Ruff-specific rules
+    "PTH",  # flake8-use-pathlib
+    "TRY",  # tryceratops
+    "S",    # flake8-bandit security
+]
+ignore = [
+    "E501",   # line too long (handled by black)
+    "B008",   # do not perform function calls in argument defaults
+    "B904",   # raise from None
+    "TRY003", # Avoid specifying long messages in exceptions
+    "S101",   # use of assert (needed for tests)
+    "S105",   # possible hardcoded password
+    "S106",   # possible hardcoded password
+]
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    ".mypy_cache",
+    ".pytest_cache",
+]
+
+[tool.ruff.per-file-ignores]
+"tests/**/*.py" = ["S101", "S105", "S106"]  # Allow assert and hardcoded passwords in tests
+"**/__init__.py" = ["F401"]  # Allow unused imports in __init__ files
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_any_generics = false
+ignore_missing_imports = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+check_untyped_defs = true
+strict_optional = true
+strict_equality = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+check_untyped_defs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "proposalos_rge", "ProposalOS_Production_System/Tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-ra",
+    "-q",
+    "--strict-markers",
+    "--cov=proposalos_rge",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-fail-under=70",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+]
+
+[tool.coverage.run]
+source = ["proposalos_rge"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/test_*.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.pydocstyle]
+convention = "google"
+add-ignore = ["D100", "D104", "D107"]  # Missing docstrings in public module/package/init
+
+[tool.bandit]
+exclude_dirs = ["tests", ".venv", "build", "dist"]
+skips = ["B101", "B601"]  # Skip assert_used and shell_true tests
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proposalos-rge"
+version = "1.0.0"
+description = "ProposalOS Report Generation Engine"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "ProposalOS Team", email = "proposalos@example.com"}
+]
+dependencies = [
+    "pydantic>=2.0",
+    "fastapi>=0.100.0",
+    "python-dateutil",
+    "pybreaker",
+    "redis",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "pytest-asyncio",
+    "black",
+    "ruff",
+    "mypy",
+    "pre-commit",
+    "isort",
+    "bandit",
+]
+test = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "pytest-asyncio",
+    "httpx",
+    "faker",
+]

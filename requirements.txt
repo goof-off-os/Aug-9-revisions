@@ -1,0 +1,48 @@
+# requirements.txt
+# Core dependencies for ProposalOS RGE
+
+# Core frameworks
+pydantic>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Utilities
+python-dateutil>=2.8.0
+python-multipart>=0.0.6
+
+# Resilience patterns
+pybreaker>=1.0.0
+tenacity>=8.2.0
+
+# Caching and state
+redis>=4.5.0
+aiocache>=0.12.0
+
+# HTTP client
+httpx>=0.24.0
+aiohttp>=3.8.0
+
+# Data processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Document generation
+jinja2>=3.1.0
+markdown>=3.4.0
+pyyaml>=6.0
+
+# Logging and monitoring
+structlog>=23.1.0
+python-json-logger>=2.0.0
+
+# Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.0
+cryptography>=41.0.0
+
+# Cloud SDKs (optional)
+boto3>=1.28.0  # AWS
+google-cloud-firestore>=2.11.0  # GCP
+
+# API documentation
+python-dotenv>=1.0.0

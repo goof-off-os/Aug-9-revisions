@@ -1,0 +1,38 @@
+New files (ready to drop into your repo):
+
+registry_bootstrap.py — centralizes template discovery/registration (sweeps render/md/*, calls each module’s register(registry) if present, and exposes a tiny TemplateRegistry wrapper).
+
+pyproject.toml — modern toolchain config (Ruff, Black, isort, mypy, pytest) + core deps (FastAPI, Pydantic v2, Uvicorn, etc.).
+
+.pre-commit-config.yaml — opinionated hooks: ruff (lint+format), black, isort, mypy, codespell, detect-secrets, and the basic hygiene checks.
+
+How to wire them up (copy/paste):
+
+FastAPI startup (e.g., in main.py):
+
+python
+Copy
+Edit
+from registry_bootstrap import TemplateRegistry, bootstrap_registry
+
+TEMPLATE_REGISTRY = TemplateRegistry()
+bootstrap_registry(TEMPLATE_REGISTRY)
+
+# Example usage somewhere in your handlers:
+# md = TEMPLATE_REGISTRY.render("DFARS_COVER_PAGE", payload, kb)
+Dev tooling:
+
+bash
+Copy
+Edit
+# one-time
+pip install pre-commit
+pre-commit install
+
+# run checks locally
+pre-commit run --all-files
+
+# run tests & types
+pytest -q
+ruff check .
+mypy .

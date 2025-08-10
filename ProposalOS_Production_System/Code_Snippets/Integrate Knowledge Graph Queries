@@ -1,0 +1,23 @@
+# In orchestrator_production.py, assuming a KG query function exists
+
+async def query_knowledge_graph(query: str) -> List[str]:
+    # This would be the client for your graph database (e.g., Neo4j, Neptune)
+    # For now, we'll mock it.
+    mock_kg = {
+        "FAR travel regulations": ["FAR 31.205-46", "GSA Per Diem Rates"],
+        "DFARS purchasing system": ["DFARS 252.244-7001"]
+    }
+    return mock_kg.get(query, [])
+
+@app.get("/kb/query")
+async def query_kb(q: str, user_id: str = Depends(verify_api_key)):
+    """
+    Provides an interface to query the knowledge graph for compliance data,
+    allowing the conversational agent to pull in real-time citations.
+    """
+    try:
+        results = await query_knowledge_graph(q)
+        return {"query": q, "results": results}
+    except Exception as e:
+        logger.error(f"Knowledge graph query failed: {e}")
+        raise HTTPException(status_code=500, detail="Could not query knowledge graph.")

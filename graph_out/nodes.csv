@@ -1,0 +1,51 @@
+id,label,name,classification,doc_id,section,title,reg_title,reg_section,url
+Fact:95592e98,Fact,,ambiguous,,,,,,
+EOC:Unspecified Cost Element,EOC,Unspecified Cost Element,ambiguous,,,,,,
+Doc:far_9_106_1,Doc,,,far_9_106_1,9.106-1,"FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.",,,https://www.acquisition.gov/far/9/106-1
+Section:far_9_106_1::9.106-1,Section,,,far_9_106_1,9.106-1,"FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.",,,
+"Reg:FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.::9.106-1",Reg,,,,,,"FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.",9.106-1,https://www.acquisition.gov/far/9/106-1
+Fact:6c49e263,Fact,,ambiguous,,,,,,
+Doc:far_9_106_4,Doc,,,far_9_106_4,9.106-4,FAR Part 9 - 9.106-4 Reports.,,,https://www.acquisition.gov/far/9/106-4
+Section:far_9_106_4::9.106-4,Section,,,far_9_106_4,9.106-4,FAR Part 9 - 9.106-4 Reports.,,,
+Reg:FAR Part 9 - 9.106-4 Reports.::9.106-4,Reg,,,,,,FAR Part 9 - 9.106-4 Reports.,9.106-4,https://www.acquisition.gov/far/9/106-4
+Fact:66a3cb33,Fact,,ambiguous,,,,,,
+Doc:far_9_106_3,Doc,,,far_9_106_3,9.106-3,FAR Part 9 - 9.106-3 Interagency preaward surveys.,,,https://www.acquisition.gov/far/9/106-3
+Section:far_9_106_3::9.106-3,Section,,,far_9_106_3,9.106-3,FAR Part 9 - 9.106-3 Interagency preaward surveys.,,,
+Reg:FAR Part 9 - 9.106-3 Interagency preaward surveys.::9.106-3,Reg,,,,,,FAR Part 9 - 9.106-3 Interagency preaward surveys.,9.106-3,https://www.acquisition.gov/far/9/106-3
+Fact:017c6d97,Fact,,ambiguous,,,,,,
+Doc:far_9_106_2,Doc,,,far_9_106_2,9.106-2,FAR Part 9 - 9.106-2 Requests for preaward surveys.,,,https://www.acquisition.gov/far/9/106-2
+Section:far_9_106_2::9.106-2,Section,,,far_9_106_2,9.106-2,FAR Part 9 - 9.106-2 Requests for preaward surveys.,,,
+Reg:FAR Part 9 - 9.106-2 Requests for preaward surveys.::9.106-2,Reg,,,,,,FAR Part 9 - 9.106-2 Requests for preaward surveys.,9.106-2,https://www.acquisition.gov/far/9/106-2
+Fact:90e23ef9,Fact,,ambiguous,,,,,,
+Doc:far_9_500,Doc,,,far_9_500,9.500,FAR Part 9 - 9.500 Scope of subpart.,,,https://www.acquisition.gov/far/9/500
+Section:far_9_500::9.500,Section,,,far_9_500,9.500,FAR Part 9 - 9.500 Scope of subpart.,,,
+Reg:FAR Part 9 - 9.500 Scope of subpart.::9.500,Reg,,,,,,FAR Part 9 - 9.500 Scope of subpart.,9.500,https://www.acquisition.gov/far/9/500
+Fact:d8360731,Fact,,ambiguous,,,,,,
+Doc:far_9_107,Doc,,,far_9_107,9.107,FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.,,,https://www.acquisition.gov/far/9/107
+Section:far_9_107::9.107,Section,,,far_9_107,9.107,FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.,,,
+Reg:FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.::9.107,Reg,,,,,,FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.,9.107,https://www.acquisition.gov/far/9/107
+Fact:a68ddd46,Fact,,direct,,,,,,
+EOC:Subcontracts,EOC,Subcontracts,direct,,,,,,
+Doc:far_9_404,Doc,,,far_9_404,9.404,FAR Part 9 - 9.404 Exclusions in the System for Award Management.,,,https://www.acquisition.gov/far/9/404
+Section:far_9_404::9.404,Section,,,far_9_404,9.404,FAR Part 9 - 9.404 Exclusions in the System for Award Management.,,,
+Reg:FAR Part 9 - 9.404 Exclusions in the System for Award Management.::9.404,Reg,,,,,,FAR Part 9 - 9.404 Exclusions in the System for Award Management.,9.404,https://www.acquisition.gov/far/9/404
+Fact:25cc4451,Fact,,ambiguous,,,,,,
+Doc:far_9_701,Doc,,,far_9_701,9.701,FAR Part 9 - 9.701 Definition.,,,https://www.acquisition.gov/far/9/701
+Section:far_9_701::9.701,Section,,,far_9_701,9.701,FAR Part 9 - 9.701 Definition.,,,
+Reg:FAR Part 9 - 9.701 Definition.::9.701,Reg,,,,,,FAR Part 9 - 9.701 Definition.,9.701,https://www.acquisition.gov/far/9/701
+Fact:35ff341a,Fact,,ambiguous,,,,,,
+Doc:far_9_306,Doc,,,far_9_306,9.306,FAR Part 9 - 9.306 Solicitation requirements.,,,https://www.acquisition.gov/far/9/306
+Section:far_9_306::9.306,Section,,,far_9_306,9.306,FAR Part 9 - 9.306 Solicitation requirements.,,,
+Reg:FAR Part 9 - 9.306 Solicitation requirements.::9.306,Reg,,,,,,FAR Part 9 - 9.306 Solicitation requirements.,9.306,https://www.acquisition.gov/far/9/306
+Fact:fbf827f7,Fact,,ambiguous,,,,,,
+Doc:far_9_109_4,Doc,,,far_9_109_4,9.109-4,"FAR Part 9 - 9.109-4 Certification by the
+offeror.",,,https://www.acquisition.gov/far/9/109-4
+Section:far_9_109_4::9.109-4,Section,,,far_9_109_4,9.109-4,"FAR Part 9 - 9.109-4 Certification by the
+offeror.",,,
+"Reg:FAR Part 9 - 9.109-4 Certification by the
+offeror.::9.109-4",Reg,,,,,,"FAR Part 9 - 9.109-4 Certification by the
+offeror.",9.109-4,https://www.acquisition.gov/far/9/109-4

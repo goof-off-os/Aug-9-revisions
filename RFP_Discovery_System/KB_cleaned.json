@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.1.0",
+  "extraction_mode": "validate_only",
+  "model": "gemini-2.5-pro",
+  "generated_at_utc": "2025-08-09T22:40:52.992921+00:00",
+  "facts": [
+    {
+      "fact_id": "db29b9b8",
+      "element": "Travel",
+      "classification": "direct",
+      "rfp_relevance": "Travel treated as direct in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "FAR Part 31 - Contract Cost Principles",
+          "reg_section": "31.201-2",
+          "quote": "Determining allowability A cost is allowable only when the cost complies with all of the following requirements 1 Reasonableness 2 Allocability 3",
+          "url": "https://www.acquisition.gov/far/31.201-2",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "far_31_201_2",
+        "title": "FAR Part 31 - Contract Cost Principles",
+        "section": "31.201-2",
+        "url": "https://www.acquisition.gov/far/31.201-2"
+      },
+      "timestamp": "2025-08-09T21:30:40.280516Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "71c734df",
+      "element": "G&A",
+      "classification": "indirect",
+      "rfp_relevance": "G&A treated as indirect in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "FAR Part 31 - Contract Cost Principles",
+          "reg_section": "31.201-2",
+          "quote": "Determining allowability A cost is allowable only when the cost complies with all of the following requirements 1 Reasonableness 2 Allocability 3",
+          "url": "https://www.acquisition.gov/far/31.201-2",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "far_31_201_2",
+        "title": "FAR Part 31 - Contract Cost Principles",
+        "section": "31.201-2",
+        "url": "https://www.acquisition.gov/far/31.201-2"
+      },
+      "timestamp": "2025-08-09T21:30:40.280575Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "49170334",
+      "element": "Fee",
+      "classification": "fee",
+      "rfp_relevance": "Fee treated as fee in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "FAR Part 31 - Contract Cost Principles",
+          "reg_section": "31.201-2",
+          "quote": "Determining allowability A cost is allowable only when the cost complies with all of the following requirements 1 Reasonableness 2 Allocability 3",
+          "url": "https://www.acquisition.gov/far/31.201-2",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "far_31_201_2",
+        "title": "FAR Part 31 - Contract Cost Principles",
+        "section": "31.201-2",
+        "url": "https://www.acquisition.gov/far/31.201-2"
+      },
+      "timestamp": "2025-08-09T21:30:40.280608Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "37e4c5c1",
+      "element": "Direct Labor",
+      "classification": "direct",
+      "rfp_relevance": "Direct Labor treated as direct in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "DFARS - Travel Costs",
+          "reg_section": "231.205-46",
+          "quote": "Travel costs are the expenses for transportation lodging subsistence and incidental expenses incurred by employees who are in travel status on official",
+          "url": "https://www.acquisition.gov/dfars/231.205-46",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "dfars_231_205_46",
+        "title": "DFARS - Travel Costs",
+        "section": "231.205-46",
+        "url": "https://www.acquisition.gov/dfars/231.205-46"
+      },
+      "timestamp": "2025-08-09T21:30:40.293549Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "93683e2e",
+      "element": "Travel",
+      "classification": "direct",
+      "rfp_relevance": "Travel treated as direct in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "DFARS - Travel Costs",
+          "reg_section": "231.205-46",
+          "quote": "Travel costs are the expenses for transportation lodging subsistence and incidental expenses incurred by employees who are in travel status on official",
+          "url": "https://www.acquisition.gov/dfars/231.205-46",
+          "confidence": 0.5,
+          "validated": true
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "dfars_231_205_46",
+        "title": "DFARS - Travel Costs",
+        "section": "231.205-46",
+        "url": "https://www.acquisition.gov/dfars/231.205-46"
+      },
+      "timestamp": "2025-08-09T21:30:40.293610Z",
+      "confidence": 0.5
+    },
+    {
+      "fact_id": "ef4125f1",
+      "element": "Direct Materials",
+      "classification": "direct",
+      "rfp_relevance": "Direct Materials treated as direct in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "DFARS - Travel Costs",
+          "reg_section": "231.205-46",
+          "quote": "Travel costs are the expenses for transportation lodging subsistence and incidental expenses incurred by employees who are in travel status on official",
+          "url": "https://www.acquisition.gov/dfars/231.205-46",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "dfars_231_205_46",
+        "title": "DFARS - Travel Costs",
+        "section": "231.205-46",
+        "url": "https://www.acquisition.gov/dfars/231.205-46"
+      },
+      "timestamp": "2025-08-09T21:30:40.293646Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "16b98039",
+      "element": "Subcontracts",
+      "classification": "direct",
+      "rfp_relevance": "Subcontracts treated as direct in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "DFARS - Travel Costs",
+          "reg_section": "231.205-46",
+          "quote": "Travel costs are the expenses for transportation lodging subsistence and incidental expenses incurred by employees who are in travel status on official",
+          "url": "https://www.acquisition.gov/dfars/231.205-46",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "dfars_231_205_46",
+        "title": "DFARS - Travel Costs",
+        "section": "231.205-46",
+        "url": "https://www.acquisition.gov/dfars/231.205-46"
+      },
+      "timestamp": "2025-08-09T21:30:40.293675Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "e5b36d96",
+      "element": "Overhead",
+      "classification": "indirect",
+      "rfp_relevance": "Overhead treated as indirect in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "DFARS - Travel Costs",
+          "reg_section": "231.205-46",
+          "quote": "Travel costs are the expenses for transportation lodging subsistence and incidental expenses incurred by employees who are in travel status on official",
+          "url": "https://www.acquisition.gov/dfars/231.205-46",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "dfars_231_205_46",
+        "title": "DFARS - Travel Costs",
+        "section": "231.205-46",
+        "url": "https://www.acquisition.gov/dfars/231.205-46"
+      },
+      "timestamp": "2025-08-09T21:30:40.293703Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "266332e5",
+      "element": "Fringe",
+      "classification": "indirect",
+      "rfp_relevance": "Fringe treated as indirect in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "DFARS - Travel Costs",
+          "reg_section": "231.205-46",
+          "quote": "Travel costs are the expenses for transportation lodging subsistence and incidental expenses incurred by employees who are in travel status on official",
+          "url": "https://www.acquisition.gov/dfars/231.205-46",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "dfars_231_205_46",
+        "title": "DFARS - Travel Costs",
+        "section": "231.205-46",
+        "url": "https://www.acquisition.gov/dfars/231.205-46"
+      },
+      "timestamp": "2025-08-09T21:30:40.293735Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "3c37f2e7",
+      "element": "Direct Labor",
+      "classification": "direct",
+      "rfp_relevance": "Direct Labor treated as direct in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "CAS 410 - Allocation of G&A Expenses",
+          "reg_section": "410.50",
+          "quote": "G A expense shall be allocated to final cost objectives by means of a cost input base which represents the total activity of",
+          "url": "https://www.acquisition.gov/cas/410",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "cas_410",
+        "title": "CAS 410 - Allocation of G&A Expenses",
+        "section": "410.50",
+        "url": "https://www.acquisition.gov/cas/410"
+      },
+      "timestamp": "2025-08-09T21:30:40.295216Z",
+      "confidence": 0.325
+    },
+    {
+      "fact_id": "134556fc",
+      "element": "G&A",
+      "classification": "indirect",
+      "rfp_relevance": "G&A treated as indirect in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "CAS 410 - Allocation of G&A Expenses",
+          "reg_section": "410.50",
+          "quote": "G A expense shall be allocated to final cost objectives by means of a cost input base which represents the total activity of",
+          "url": "https://www.acquisition.gov/cas/410",
+          "confidence": 0.425,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "cas_410",
+        "title": "CAS 410 - Allocation of G&A Expenses",
+        "section": "410.50",
+        "url": "https://www.acquisition.gov/cas/410"
+      },
+      "timestamp": "2025-08-09T21:30:40.295260Z",
+      "confidence": 0.425
+    },
+    {
+      "fact_id": "0e607d84",
+      "element": "Overhead",
+      "classification": "indirect",
+      "rfp_relevance": "Overhead treated as indirect in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "CAS 410 - Allocation of G&A Expenses",
+          "reg_section": "410.50",
+          "quote": "G A expense shall be allocated to final cost objectives by means of a cost input base which represents the total activity of",
+          "url": "https://www.acquisition.gov/cas/410",
+          "confidence": 0.425,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "cas_410",
+        "title": "CAS 410 - Allocation of G&A Expenses",
+        "section": "410.50",
+        "url": "https://www.acquisition.gov/cas/410"
+      },
+      "timestamp": "2025-08-09T21:30:40.295289Z",
+      "confidence": 0.425
+    },
+    {
+      "fact_id": "528adbc6",
+      "element": "Fringe",
+      "classification": "indirect",
+      "rfp_relevance": "Fringe treated as indirect in RFP cost structure when applicable.",
+      "regulatory_support": [
+        {
+          "reg_title": "CAS 410 - Allocation of G&A Expenses",
+          "reg_section": "410.50",
+          "quote": "G A expense shall be allocated to final cost objectives by means of a cost input base which represents the total activity of",
+          "url": "https://www.acquisition.gov/cas/410",
+          "confidence": 0.325,
+          "validated": false
+        }
+      ],
+      "notes": "",
+      "source": {
+        "doc_id": "cas_410",
+        "title": "CAS 410 - Allocation of G&A Expenses",
+        "section": "410.50",
+        "url": "https://www.acquisition.gov/cas/410"
+      },
+      "timestamp": "2025-08-09T21:30:40.295316Z",
+      "confidence": 0.325
+    }
+  ]
+}

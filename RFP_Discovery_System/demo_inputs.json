@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "ProposalOS Demo Cost Volume"
+  },
+  "rates": {
+    "fringe": 0.28,
+    "overhead": 0.75,
+    "gna": 0.12,
+    "escalation": 0.02
+  },
+  "fee_pct": 0.1,
+  "exclude_subk_from_fee": false,
+  "labor": [
+    {
+      "wbs": "1.1",
+      "labor_cat": "Systems Engineer III",
+      "hours": 1200,
+      "base_rate": 85.0
+    },
+    {
+      "wbs": "1.2",
+      "labor_cat": "Software Dev II",
+      "hours": 1800,
+      "base_rate": 72.0
+    }
+  ],
+  "materials": [
+    {
+      "wbs": "2.1",
+      "part_no": "RF-AMP-9001",
+      "qty": 4,
+      "unit_price": 12500.0,
+      "material_handling": 0.05,
+      "scrap": 0.02
+    }
+  ],
+  "subcontracts": [
+    {
+      "wbs": "3.1",
+      "vendor": "Acme Avionics",
+      "cost": 450000.0,
+      "handling": 0.02,
+      "fee_excluded_from_base": false
+    }
+  ],
+  "travel": [
+    {
+      "wbs": "4.1",
+      "trips": 6,
+      "airfare": 850.0,
+      "lodging_nights": 30,
+      "lodging_rate": 190.0,
+      "perdiem_days": 30,
+      "perdiem_rate": 79.0,
+      "local_miles": 600,
+      "mileage_rate": 0.67
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "fact_id": "b60c3b64",
+    "element": "Unspecified Cost Element",
+    "classification": "ambiguous",
+    "rfp_relevance": "Text does not clearly specify EoC; mark as ambiguous for review.",
+    "regulatory_support": [
+      {
+        "reg_title": "FAR Part 9 - 9.106-1 Conditions for preaward\nsurveys.",
+        "reg_section": "9.106-1",
+        "quote": "(a) A preaward survey is normally required only when the information on hand or readily available to the",
+        "url": "https://www.acquisition.gov/far/9/106-1",
+        "confidence": 0.2
+      }
+    ],
+    "notes": "dry-run placeholder",
+    "source": {
+      "doc_id": "far_9_106_1",
+      "title": "FAR Part 9 - 9.106-1 Conditions for preaward\nsurveys.",
+      "section": "9.106-1",
+      "url": "https://www.acquisition.gov/far/9/106-1"
+    },
+    "timestamp": "2025-08-09T23:30:43.249515Z"
+  },
+  {
+    "fact_id": "3d46c13d",
+    "element": "Unspecified Cost Element",
+    "classification": "ambiguous",
+    "rfp_relevance": "Text does not clearly specify EoC; mark as ambiguous for review.",
+    "regulatory_support": [
+      {
+        "reg_title": "FAR Part 9 - 9.106-4 Reports.",
+        "reg_section": "9.106-4",
+        "quote": "(a) The surveying activity shall complete the applicable parts of SF 1403 , Preaward Survey of Prospective Contractor",
+        "url": "https://www.acquisition.gov/far/9/106-4",
+        "confidence": 0.2
+      }
+    ],
+    "notes": "dry-run placeholder",
+    "source": {
+      "doc_id": "far_9_106_4",
+      "title": "FAR Part 9 - 9.106-4 Reports.",
+      "section": "9.106-4",
+      "url": "https://www.acquisition.gov/far/9/106-4"
+    },
+    "timestamp": "2025-08-09T23:30:43.250502Z"
+  },
+  {
+    "fact_id": "9b3f7574",
+    "element": "Unspecified Cost Element",
+    "classification": "ambiguous",
+    "rfp_relevance": "Text does not clearly specify EoC; mark as ambiguous for review.",
+    "regulatory_support": [
+      {
+        "reg_title": "FAR Part 9 - 9.106-3 Interagency preaward surveys.",
+        "reg_section": "9.106-3",
+        "quote": "When the contracting office and the surveying activity are in different agencies, the procedures of this section 9.106",
+        "url": "https://www.acquisition.gov/far/9/106-3",
+        "confidence": 0.2
+      }
+    ],
+    "notes": "dry-run placeholder",
+    "source": {
+      "doc_id": "far_9_106_3",
+      "title": "FAR Part 9 - 9.106-3 Interagency preaward surveys.",
+      "section": "9.106-3",
+      "url": "https://www.acquisition.gov/far/9/106-3"
+    },
+    "timestamp": "2025-08-09T23:30:43.250836Z"
+  },
+  {
+    "fact_id": "85ea5fbe",
+    "element": "Unspecified Cost Element",
+    "classification": "ambiguous",
+    "rfp_relevance": "Text does not clearly specify EoC; mark as ambiguous for review.",
+    "regulatory_support": [
+      {
+        "reg_title": "FAR Part 9 - 9.106-2 Requests for preaward surveys.",
+        "reg_section": "9.106-2",
+        "quote": "The contracting officer’s request to the surveying activity (Preaward Survey of Prospective Contractor (General), SF 1403 ) shall-",
+        "url": "https://www.acquisition.gov/far/9/106-2",
+        "confidence": 0.2
+      }
+    ],
+    "notes": "dry-run placeholder",
+    "source": {
+      "doc_id": "far_9_106_2",
+      "title": "FAR Part 9 - 9.106-2 Requests for preaward surveys.",
+      "section": "9.106-2",
+      "url": "https://www.acquisition.gov/far/9/106-2"
+    },
+    "timestamp": "2025-08-09T23:30:43.251279Z"
+  },
+  {
+    "fact_id": "1a445cfc",
+    "element": "Unspecified Cost Element",
+    "classification": "ambiguous",
+    "rfp_relevance": "Text does not clearly specify EoC; mark as ambiguous for review.",
+    "regulatory_support": [
+      {
+        "reg_title": "FAR Part 9 - 9.500 Scope of subpart.",
+        "reg_section": "9.500",
+        "quote": "This subpart- (a) Prescribes responsibilities, general rules, and procedures for identifying, evaluating, and resolving organizational conflicts of interest;",
+        "url": "https://www.acquisition.gov/far/9/500",
+        "confidence": 0.2
+      }
+    ],
+    "notes": "dry-run placeholder",
+    "source": {
+      "doc_id": "far_9_500",
+      "title": "FAR Part 9 - 9.500 Scope of subpart.",
+      "section": "9.500",
+      "url": "https://www.acquisition.gov/far/9/500"
+    },
+    "timestamp": "2025-08-09T23:30:43.251620Z"
+  }
+]

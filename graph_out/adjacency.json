@@ -1,0 +1,202 @@
+{
+  "Fact:95592e98": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_106_1::9.106-1",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.106-1 Conditions for preaward\nsurveys.::9.106-1",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_106_1::9.106-1": [
+    {
+      "to": "Doc:far_9_106_1",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:6c49e263": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_106_4::9.106-4",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.106-4 Reports.::9.106-4",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_106_4::9.106-4": [
+    {
+      "to": "Doc:far_9_106_4",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:66a3cb33": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_106_3::9.106-3",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.106-3 Interagency preaward surveys.::9.106-3",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_106_3::9.106-3": [
+    {
+      "to": "Doc:far_9_106_3",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:017c6d97": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_106_2::9.106-2",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.106-2 Requests for preaward surveys.::9.106-2",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_106_2::9.106-2": [
+    {
+      "to": "Doc:far_9_106_2",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:90e23ef9": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_500::9.500",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.500 Scope of subpart.::9.500",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_500::9.500": [
+    {
+      "to": "Doc:far_9_500",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:d8360731": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_107::9.107",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.::9.107",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_107::9.107": [
+    {
+      "to": "Doc:far_9_107",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:a68ddd46": [
+    {
+      "to": "EOC:Subcontracts",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_404::9.404",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.404 Exclusions in the System for Award Management.::9.404",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_404::9.404": [
+    {
+      "to": "Doc:far_9_404",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:25cc4451": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_701::9.701",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.701 Definition.::9.701",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_701::9.701": [
+    {
+      "to": "Doc:far_9_701",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:35ff341a": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_306::9.306",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.306 Solicitation requirements.::9.306",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_306::9.306": [
+    {
+      "to": "Doc:far_9_306",
+      "type": "PART_OF"
+    }
+  ],
+  "Fact:fbf827f7": [
+    {
+      "to": "EOC:Unspecified Cost Element",
+      "type": "DESCRIBES"
+    },
+    {
+      "to": "Section:far_9_109_4::9.109-4",
+      "type": "CITED_IN"
+    },
+    {
+      "to": "Reg:FAR Part 9 - 9.109-4 Certification by the\nofferor.::9.109-4",
+      "type": "SUPPORTED_BY"
+    }
+  ],
+  "Section:far_9_109_4::9.109-4": [
+    {
+      "to": "Doc:far_9_109_4",
+      "type": "PART_OF"
+    }
+  ]
+}

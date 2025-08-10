@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="directed">
+<node id="Fact:95592e98"></node>
+<node id="EOC:Unspecified Cost Element"></node>
+<node id="Doc:far_9_106_1"></node>
+<node id="Section:far_9_106_1::9.106-1"></node>
+<node id="Reg:FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.::9.106-1"></node>
+<node id="Fact:6c49e263"></node>
+<node id="Doc:far_9_106_4"></node>
+<node id="Section:far_9_106_4::9.106-4"></node>
+<node id="Reg:FAR Part 9 - 9.106-4 Reports.::9.106-4"></node>
+<node id="Fact:66a3cb33"></node>
+<node id="Doc:far_9_106_3"></node>
+<node id="Section:far_9_106_3::9.106-3"></node>
+<node id="Reg:FAR Part 9 - 9.106-3 Interagency preaward surveys.::9.106-3"></node>
+<node id="Fact:017c6d97"></node>
+<node id="Doc:far_9_106_2"></node>
+<node id="Section:far_9_106_2::9.106-2"></node>
+<node id="Reg:FAR Part 9 - 9.106-2 Requests for preaward surveys.::9.106-2"></node>
+<node id="Fact:90e23ef9"></node>
+<node id="Doc:far_9_500"></node>
+<node id="Section:far_9_500::9.500"></node>
+<node id="Reg:FAR Part 9 - 9.500 Scope of subpart.::9.500"></node>
+<node id="Fact:d8360731"></node>
+<node id="Doc:far_9_107"></node>
+<node id="Section:far_9_107::9.107"></node>
+<node id="Reg:FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.::9.107"></node>
+<node id="Fact:a68ddd46"></node>
+<node id="EOC:Subcontracts"></node>
+<node id="Doc:far_9_404"></node>
+<node id="Section:far_9_404::9.404"></node>
+<node id="Reg:FAR Part 9 - 9.404 Exclusions in the System for Award Management.::9.404"></node>
+<node id="Fact:25cc4451"></node>
+<node id="Doc:far_9_701"></node>
+<node id="Section:far_9_701::9.701"></node>
+<node id="Reg:FAR Part 9 - 9.701 Definition.::9.701"></node>
+<node id="Fact:35ff341a"></node>
+<node id="Doc:far_9_306"></node>
+<node id="Section:far_9_306::9.306"></node>
+<node id="Reg:FAR Part 9 - 9.306 Solicitation requirements.::9.306"></node>
+<node id="Fact:fbf827f7"></node>
+<node id="Doc:far_9_109_4"></node>
+<node id="Section:far_9_109_4::9.109-4"></node>
+<node id="Reg:FAR Part 9 - 9.109-4 Certification by the
+offeror.::9.109-4"></node>
+<edge source="Fact:95592e98" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:95592e98" target="Section:far_9_106_1::9.106-1"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_106_1::9.106-1" target="Doc:far_9_106_1"><data key="type">PART_OF</data></edge>
+<edge source="Fact:95592e98" target="Reg:FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.::9.106-1"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:6c49e263" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:6c49e263" target="Section:far_9_106_4::9.106-4"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_106_4::9.106-4" target="Doc:far_9_106_4"><data key="type">PART_OF</data></edge>
+<edge source="Fact:6c49e263" target="Reg:FAR Part 9 - 9.106-4 Reports.::9.106-4"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:66a3cb33" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:66a3cb33" target="Section:far_9_106_3::9.106-3"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_106_3::9.106-3" target="Doc:far_9_106_3"><data key="type">PART_OF</data></edge>
+<edge source="Fact:66a3cb33" target="Reg:FAR Part 9 - 9.106-3 Interagency preaward surveys.::9.106-3"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:017c6d97" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:017c6d97" target="Section:far_9_106_2::9.106-2"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_106_2::9.106-2" target="Doc:far_9_106_2"><data key="type">PART_OF</data></edge>
+<edge source="Fact:017c6d97" target="Reg:FAR Part 9 - 9.106-2 Requests for preaward surveys.::9.106-2"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:90e23ef9" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:90e23ef9" target="Section:far_9_500::9.500"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_500::9.500" target="Doc:far_9_500"><data key="type">PART_OF</data></edge>
+<edge source="Fact:90e23ef9" target="Reg:FAR Part 9 - 9.500 Scope of subpart.::9.500"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:d8360731" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:d8360731" target="Section:far_9_107::9.107"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_107::9.107" target="Doc:far_9_107"><data key="type">PART_OF</data></edge>
+<edge source="Fact:d8360731" target="Reg:FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.::9.107"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:a68ddd46" target="EOC:Subcontracts"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:a68ddd46" target="Section:far_9_404::9.404"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_404::9.404" target="Doc:far_9_404"><data key="type">PART_OF</data></edge>
+<edge source="Fact:a68ddd46" target="Reg:FAR Part 9 - 9.404 Exclusions in the System for Award Management.::9.404"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:25cc4451" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:25cc4451" target="Section:far_9_701::9.701"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_701::9.701" target="Doc:far_9_701"><data key="type">PART_OF</data></edge>
+<edge source="Fact:25cc4451" target="Reg:FAR Part 9 - 9.701 Definition.::9.701"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:35ff341a" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:35ff341a" target="Section:far_9_306::9.306"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_306::9.306" target="Doc:far_9_306"><data key="type">PART_OF</data></edge>
+<edge source="Fact:35ff341a" target="Reg:FAR Part 9 - 9.306 Solicitation requirements.::9.306"><data key="type">SUPPORTED_BY</data></edge>
+<edge source="Fact:fbf827f7" target="EOC:Unspecified Cost Element"><data key="type">DESCRIBES</data></edge>
+<edge source="Fact:fbf827f7" target="Section:far_9_109_4::9.109-4"><data key="type">CITED_IN</data></edge>
+<edge source="Section:far_9_109_4::9.109-4" target="Doc:far_9_109_4"><data key="type">PART_OF</data></edge>
+<edge source="Fact:fbf827f7" target="Reg:FAR Part 9 - 9.109-4 Certification by the
+offeror.::9.109-4"><data key="type">SUPPORTED_BY</data></edge>
+</graph></graphml>

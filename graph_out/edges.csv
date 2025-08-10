@@ -1,0 +1,43 @@
+source,target,type
+Fact:95592e98,EOC:Unspecified Cost Element,DESCRIBES
+Fact:95592e98,Section:far_9_106_1::9.106-1,CITED_IN
+Section:far_9_106_1::9.106-1,Doc:far_9_106_1,PART_OF
+Fact:95592e98,"Reg:FAR Part 9 - 9.106-1 Conditions for preaward
+surveys.::9.106-1",SUPPORTED_BY
+Fact:6c49e263,EOC:Unspecified Cost Element,DESCRIBES
+Fact:6c49e263,Section:far_9_106_4::9.106-4,CITED_IN
+Section:far_9_106_4::9.106-4,Doc:far_9_106_4,PART_OF
+Fact:6c49e263,Reg:FAR Part 9 - 9.106-4 Reports.::9.106-4,SUPPORTED_BY
+Fact:66a3cb33,EOC:Unspecified Cost Element,DESCRIBES
+Fact:66a3cb33,Section:far_9_106_3::9.106-3,CITED_IN
+Section:far_9_106_3::9.106-3,Doc:far_9_106_3,PART_OF
+Fact:66a3cb33,Reg:FAR Part 9 - 9.106-3 Interagency preaward surveys.::9.106-3,SUPPORTED_BY
+Fact:017c6d97,EOC:Unspecified Cost Element,DESCRIBES
+Fact:017c6d97,Section:far_9_106_2::9.106-2,CITED_IN
+Section:far_9_106_2::9.106-2,Doc:far_9_106_2,PART_OF
+Fact:017c6d97,Reg:FAR Part 9 - 9.106-2 Requests for preaward surveys.::9.106-2,SUPPORTED_BY
+Fact:90e23ef9,EOC:Unspecified Cost Element,DESCRIBES
+Fact:90e23ef9,Section:far_9_500::9.500,CITED_IN
+Section:far_9_500::9.500,Doc:far_9_500,PART_OF
+Fact:90e23ef9,Reg:FAR Part 9 - 9.500 Scope of subpart.::9.500,SUPPORTED_BY
+Fact:d8360731,EOC:Unspecified Cost Element,DESCRIBES
+Fact:d8360731,Section:far_9_107::9.107,CITED_IN
+Section:far_9_107::9.107,Doc:far_9_107,PART_OF
+Fact:d8360731,Reg:FAR Part 9 - 9.107 Surveys of nonprofit agencies participating in the AbilityOne Program.::9.107,SUPPORTED_BY
+Fact:a68ddd46,EOC:Subcontracts,DESCRIBES
+Fact:a68ddd46,Section:far_9_404::9.404,CITED_IN
+Section:far_9_404::9.404,Doc:far_9_404,PART_OF
+Fact:a68ddd46,Reg:FAR Part 9 - 9.404 Exclusions in the System for Award Management.::9.404,SUPPORTED_BY
+Fact:25cc4451,EOC:Unspecified Cost Element,DESCRIBES
+Fact:25cc4451,Section:far_9_701::9.701,CITED_IN
+Section:far_9_701::9.701,Doc:far_9_701,PART_OF
+Fact:25cc4451,Reg:FAR Part 9 - 9.701 Definition.::9.701,SUPPORTED_BY
+Fact:35ff341a,EOC:Unspecified Cost Element,DESCRIBES
+Fact:35ff341a,Section:far_9_306::9.306,CITED_IN
+Section:far_9_306::9.306,Doc:far_9_306,PART_OF
+Fact:35ff341a,Reg:FAR Part 9 - 9.306 Solicitation requirements.::9.306,SUPPORTED_BY
+Fact:fbf827f7,EOC:Unspecified Cost Element,DESCRIBES
+Fact:fbf827f7,Section:far_9_109_4::9.109-4,CITED_IN
+Section:far_9_109_4::9.109-4,Doc:far_9_109_4,PART_OF
+Fact:fbf827f7,"Reg:FAR Part 9 - 9.109-4 Certification by the
+offeror.::9.109-4",SUPPORTED_BY
