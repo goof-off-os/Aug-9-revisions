@@ -219,14 +219,7 @@ def generate(body: GenerateBody):
             # Write allocation rows
             for alloc in body.payload.allocations:
                 output.write(
-                    f"{alloc.fy},"
-                    f"{alloc.clin or ''},"
-                    f"{alloc.wbs or ''},"
-                    f"{alloc.task or ''},"
-                    f"{alloc.ipt or ''},"
-                    f"{alloc.hours},"
-                    f"{alloc.rate or ''},"
-                    f"{alloc.cost or ''}\n"
+                    f"{alloc.fy},{alloc.clin or ''},{alloc.wbs or ''},{alloc.task or ''},{alloc.ipt or ''},{alloc.hours},{alloc.rate or ''},{alloc.cost or ''}\n"
                 )
             
             # Return as streaming response
